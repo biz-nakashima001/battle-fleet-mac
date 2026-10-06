@@ -1,0 +1,12 @@
+# Local build outputs and scratch files
+work/
+outputs/
+.DS_Store
+
+# Xcode user and build state
+*.xcuserstate
+xcuserdata/
+DerivedData/
+build/
+*.hmap
+

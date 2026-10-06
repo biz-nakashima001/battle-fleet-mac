@@ -1,0 +1,25 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 56;
+	objects = {
+		A11111111111111111111111 = {isa = PBXBuildFile; fileRef = A11111111111111111111112; };
+		A11111111111111111111112 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattleFleet.swift; sourceTree = "<group>"; };
+		A11111111111111111111113 = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BattleFleet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A11111111111111111111114 = {isa = PBXGroup; children = (A11111111111111111111112, A11111111111111111111115,); sourceTree = "<group>"; };
+		A11111111111111111111115 = {isa = PBXGroup; children = (A11111111111111111111113,); name = Products; sourceTree = "<group>"; };
+		A11111111111111111111116 = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (A11111111111111111111111,); runOnlyForDeploymentPostprocessing = 0; };
+		A11111111111111111111117 = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		A11111111111111111111118 = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		A11111111111111111111119 = {isa = PBXNativeTarget; buildConfigurationList = A1111111111111111111111C; buildPhases = (A11111111111111111111116, A11111111111111111111117, A11111111111111111111118,); buildRules = (); dependencies = (); name = BattleFleet; productName = BattleFleet; productReference = A11111111111111111111113; productType = "com.apple.product-type.application"; };
+		A1111111111111111111111A = {isa = PBXProject; attributes = {BuildIndependentTargetsInParallel = 1; LastUpgradeCheck = 2700;}; buildConfigurationList = A1111111111111111111111B; compatibilityVersion = "Xcode 14.0"; developmentRegion = en; hasScannedForEncodings = 0; knownRegions = (en, Base,); mainGroup = A11111111111111111111114; productRefGroup = A11111111111111111111115; projectDirPath = ""; projectRoot = ""; targets = (A11111111111111111111119,); };
+		A1111111111111111111111D = {isa = XCBuildConfiguration; buildSettings = {MACOSX_DEPLOYMENT_TARGET = 13.0; SDKROOT = macosx; SWIFT_VERSION = 5.0; }; name = Debug; };
+		A1111111111111111111111E = {isa = XCBuildConfiguration; buildSettings = {MACOSX_DEPLOYMENT_TARGET = 13.0; SDKROOT = macosx; SWIFT_VERSION = 5.0; }; name = Release; };
+		A1111111111111111111111B = {isa = XCConfigurationList; buildConfigurations = (A1111111111111111111111D, A1111111111111111111111E,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		A1111111111111111111111F = {isa = XCBuildConfiguration; buildSettings = {CODE_SIGNING_ALLOWED = NO; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_CFBundleDisplayName = "海戦司令部"; INFOPLIST_KEY_NSPrincipalClass = NSApplication; MACOSX_DEPLOYMENT_TARGET = 13.0; PRODUCT_BUNDLE_IDENTIFIER = jp.codex.battlefleet; PRODUCT_NAME = "$(TARGET_NAME)"; SDKROOT = macosx; SWIFT_VERSION = 5.0; }; name = Debug; };
+		A11111111111111111111120 = {isa = XCBuildConfiguration; buildSettings = {CODE_SIGNING_ALLOWED = NO; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_CFBundleDisplayName = "海戦司令部"; INFOPLIST_KEY_NSPrincipalClass = NSApplication; MACOSX_DEPLOYMENT_TARGET = 13.0; PRODUCT_BUNDLE_IDENTIFIER = jp.codex.battlefleet; PRODUCT_NAME = "$(TARGET_NAME)"; SDKROOT = macosx; SWIFT_VERSION = 5.0; }; name = Release; };
+		A1111111111111111111111C = {isa = XCConfigurationList; buildConfigurations = (A1111111111111111111111F, A11111111111111111111120,); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+	};
+	rootObject = A1111111111111111111111A;
+}
